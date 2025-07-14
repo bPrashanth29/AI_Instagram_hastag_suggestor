@@ -1,20 +1,30 @@
-# AI Instagram Hashtag Suggester
+# AI Hashtag Genius 🚀📸
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Azure](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+**Smart Instagram Hashtag Generator powered by Azure AI**
 
-An AI-powered tool that suggests relevant Instagram hashtags by analyzing image content using Azure Computer Vision and OpenAI.
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white)
+![AI](https://img.shields.io/badge/AI-FF6B6B?style=flat&logo=openai&logoColor=white)
 
-## Features
+> Transform any image into viral hashtags with AI magic ✨
 
-- Upload any image to get trending hashtag suggestions
-- Combines Azure Computer Vision for image analysis with OpenAI for creative hashtag generation
-- Simple Streamlit web interface
-- Fully configurable through environment variables
+## 🌟 Features
+- **Instant Analysis**: Upload → AI scans → Get hashtags
+- **Smart Suggestions**: Context-aware tags + trending recommendations
+- **Export Ready**: Copy with one click or save as CSV
+- **Privacy Focused**: No data stored after processing
 
-## Setup
+## 🛠️ Tech Stack
+| Component          | Technology               |
+|--------------------|--------------------------|
+| Backend           | Python 3.10+             |
+| AI Engine         | Azure Computer Vision + OpenAI |
+| Interface         | Streamlit                |
+| Deployment        | Docker-ready             |
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/bPrashanth29/AI_Instagram_hashtag_suggestor.git
-   cd AI_Instagram_hashtag_suggestor
+## 🚀 Quick Start
+```bash
+git clone https://github.com/yourrepo/AI-Instagram-Hashtag-Suggestor.git
+cd AI-Instagram-Hashtag-Suggestor
+pip install -r requirements.txt
+streamlit run app.py
